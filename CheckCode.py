@@ -233,7 +233,7 @@ class CodeQualityChecker:
             for i, line in enumerate(lines):
                 stripped = line.strip()
                 
-                # 空行
+                # 空行の判定を修正：実際に空白のみの行かチェック
                 if not stripped:
                     analysis['blank_lines'] += 1
                     continue
@@ -254,11 +254,13 @@ class CodeQualityChecker:
                     analysis['docstring_lines'] += 1
                     continue
                 
-                # コメント
+                # コメント行の判定を修正
                 if stripped.startswith('#'):
                     analysis['comment_lines'] += 1
-                else:
-                    analysis['code_lines'] += 1
+                    continue
+                
+                # ここまで来たらコード行
+                analysis['code_lines'] += 1
                 
                 # import文
                 if stripped.startswith('import ') or stripped.startswith('from '):
