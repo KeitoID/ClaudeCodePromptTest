@@ -1,0 +1,412 @@
+{
+  "en": [
+    {
+      "filename": "binary_search_tree_en.py",
+      "flake8": {
+        "tool": "flake8",
+        "total_issues": 64,
+        "issues": [
+          {
+            "line": 8,
+            "column": 1,
+            "code": "F401",
+            "message": "'typing.Union' imported but unused",
+            "category": "PyFlakes errors"
+          },
+          {
+            "line": 14,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 20,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 24,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 36,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 40,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 45,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 50,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 55,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 59,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          }
+        ],
+        "errors_by_category": {
+          "PyFlakes errors": 1,
+          "PEP 8 warnings": 61,
+          "PEP 8 errors": 2
+        },
+        "statistics": {},
+        "has_docstring_issues": false,
+        "has_type_checking_issues": false,
+        "exit_code": 1
+      },
+      "pylint": {
+        "tool": "pylint",
+        "score": 6.0,
+        "issues_by_type": {
+          "convention": 35,
+          "refactor": 5,
+          "warning": 12,
+          "error": 0,
+          "fatal": 0,
+          "info": 0
+        },
+        "total_issues": 52,
+        "message_types": {
+          "C0303": 33,
+          "W0621": 7,
+          "W0707": 4,
+          "R1705": 3,
+          "C0301": 1,
+          "C0304": 1,
+          "R0903": 1,
+          "R0911": 1,
+          "W0611": 1
+        },
+        "has_errors": false,
+        "has_warnings": true
+      },
+      "structure": {
+        "total_lines": 334,
+        "code_lines": 78,
+        "comment_lines": 0,
+        "docstring_lines": 188,
+        "blank_lines": 68,
+        "functions": [
+          {
+            "name": "__init__",
+            "line": 21,
+            "has_type_hints": true
+          },
+          {
+            "name": "__init__",
+            "line": 41,
+            "has_type_hints": true
+          },
+          {
+            "name": "is_empty",
+            "line": 52,
+            "has_type_hints": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "TreeNode",
+            "line": 11
+          },
+          {
+            "name": "BinarySearchTree",
+            "line": 33
+          }
+        ],
+        "has_type_hints": true,
+        "has_module_docstring": true,
+        "imports_count": 1,
+        "type_annotations_count": 7,
+        "comment_ratio": 0.562874251497006,
+        "code_ratio": 0.23353293413173654
+      }
+    }
+  ],
+  "ja": [
+    {
+      "filename": "binary_search_tree_Ja.py",
+      "flake8": {
+        "tool": "flake8",
+        "total_issues": 4,
+        "issues": [
+          {
+            "line": 8,
+            "column": 1,
+            "code": "F401",
+            "message": "'typing.Iterator' imported but unused",
+            "category": "PyFlakes errors"
+          },
+          {
+            "line": 149,
+            "column": 89,
+            "code": "E501",
+            "message": "line too long (91 > 88 characters)",
+            "category": "PEP 8 errors"
+          },
+          {
+            "line": 319,
+            "column": 1,
+            "code": "D401",
+            "message": "First line should be in imperative mood; try rephrasing",
+            "category": "Docstring issues"
+          },
+          {
+            "line": 351,
+            "column": 25,
+            "code": "W292",
+            "message": "no newline at end of file",
+            "category": "PEP 8 warnings"
+          }
+        ],
+        "errors_by_category": {
+          "PyFlakes errors": 1,
+          "PEP 8 errors": 1,
+          "Docstring issues": 1,
+          "PEP 8 warnings": 1
+        },
+        "statistics": {},
+        "has_docstring_issues": true,
+        "has_type_checking_issues": false,
+        "exit_code": 1
+      },
+      "pylint": {
+        "tool": "pylint",
+        "score": 9.46,
+        "issues_by_type": {
+          "convention": 2,
+          "refactor": 3,
+          "warning": 1,
+          "error": 0,
+          "fatal": 0,
+          "info": 0
+        },
+        "total_issues": 6,
+        "message_types": {
+          "R1705": 2,
+          "C0304": 1,
+          "C0103": 1,
+          "R0903": 1,
+          "W0611": 1
+        },
+        "has_errors": false,
+        "has_warnings": true
+      },
+      "structure": {
+        "total_lines": 351,
+        "code_lines": 101,
+        "comment_lines": 0,
+        "docstring_lines": 174,
+        "blank_lines": 76,
+        "functions": [
+          {
+            "name": "__init__",
+            "line": 21,
+            "has_type_hints": true
+          },
+          {
+            "name": "__init__",
+            "line": 42,
+            "has_type_hints": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "TreeNode",
+            "line": 11
+          },
+          {
+            "name": "BinarySearchTree",
+            "line": 33
+          }
+        ],
+        "has_type_hints": true,
+        "has_module_docstring": true,
+        "imports_count": 1,
+        "type_annotations_count": 5,
+        "comment_ratio": 0.49572649572649574,
+        "code_ratio": 0.28774928774928776
+      }
+    }
+  ],
+  "mixed": [
+    {
+      "filename": "binary_search_tree_mix.py",
+      "flake8": {
+        "tool": "flake8",
+        "total_issues": 59,
+        "issues": [
+          {
+            "line": 14,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 20,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 24,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 36,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 41,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 45,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 49,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 52,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 63,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          },
+          {
+            "line": 67,
+            "column": 1,
+            "code": "W293",
+            "message": "blank line contains whitespace",
+            "category": "PEP 8 warnings"
+          }
+        ],
+        "errors_by_category": {
+          "PEP 8 warnings": 58,
+          "PEP 8 errors": 1
+        },
+        "statistics": {},
+        "has_docstring_issues": false,
+        "has_type_checking_issues": false,
+        "exit_code": 1
+      },
+      "pylint": {
+        "tool": "pylint",
+        "score": 6.25,
+        "issues_by_type": {
+          "convention": 28,
+          "refactor": 4,
+          "warning": 10,
+          "error": 0,
+          "fatal": 0,
+          "info": 0
+        },
+        "total_issues": 42,
+        "message_types": {
+          "C0303": 26,
+          "W0621": 7,
+          "W0707": 3,
+          "R1705": 3,
+          "C0301": 1,
+          "C0304": 1,
+          "R0903": 1
+        },
+        "has_errors": false,
+        "has_warnings": true
+      },
+      "structure": {
+        "total_lines": 311,
+        "code_lines": 82,
+        "comment_lines": 0,
+        "docstring_lines": 164,
+        "blank_lines": 65,
+        "functions": [
+          {
+            "name": "__init__",
+            "line": 21,
+            "has_type_hints": true
+          },
+          {
+            "name": "__init__",
+            "line": 42,
+            "has_type_hints": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "BSTNode",
+            "line": 11
+          },
+          {
+            "name": "BinarySearchTree",
+            "line": 33
+          }
+        ],
+        "has_type_hints": true,
+        "has_module_docstring": true,
+        "imports_count": 1,
+        "type_annotations_count": 5,
+        "comment_ratio": 0.5273311897106109,
+        "code_ratio": 0.26366559485530544
+      }
+    }
+  ]
+}
